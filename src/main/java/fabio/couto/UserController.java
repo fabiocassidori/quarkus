@@ -14,7 +14,7 @@ public class UserController {
 
     @GET
     public Response test(){
-        return Response.ok("Hello World").build();
+        return Response.ok("Hello AWS").build();
     }
 
 }
